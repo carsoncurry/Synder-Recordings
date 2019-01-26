@@ -1,0 +1,128 @@
+body, html, button, form, input, datalist, textarea {
+    font-family: 'Karla', sans-serif;
+    background-color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Navbar Styles */
+#masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    background-color: #ffffff;
+    border: none;
+    top: 0;
+    left: 0;
+}
+
+nav > a {
+    color: midnightblue;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#icon {
+    display: none;
+}
+
+.submitBtn {
+    background-color: #d9f0d0;
+    color: #91d376;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+}
+
+.submitBtn:hover {
+    background-color: #91d376;
+    color: #d9f0d0;
+}
+
+/* Hero Image Styles */
+.hero-section {
+    background: url('/assets/images/images/image1.png') 50% no-repeat;
+    background-size: cover;
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.hero-section-text {
+    color: white;
+    text-align: left;
+}
+
+.video-button {
+    background: transparent;
+    border: none;
+}
+
+.playButton {
+    vertical-align: auto;
+}
+
+.videoButton {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+/* Google Map */
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* Slider */
+#wrapper {
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#slider-image {
+    width: 250px;
+    justify-content: center;
+}
+
+/* Form */
+input, textarea {
+    background-color: lightgray;
+}
+
+input::placeholder, textarea::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: midnightblue;
+    color: white;
+}
+
+.footerMenu {
+    columns: 5;
+}
+
+/* Mobile Responsive */
