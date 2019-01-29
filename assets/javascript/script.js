@@ -3,8 +3,6 @@ $(document).ready(function() {
         arrows: false,
         centerMode: true,
         centerPadding: '60px',
-        infinite: true,
-        slidesToScroll: 1,
         slidesToShow: 1,
         responsive: [
             {

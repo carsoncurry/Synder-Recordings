@@ -137,15 +137,15 @@ nav > ul {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     padding: 5% 0;
     align-items: center;
 }
 
 .profile-content img {
     max-height: auto;
-    width: 750px;
-    margin-right: 75px;
+    width: 50%;
+    margin-right: 2.5%;
 }
 
 .profile-right {
@@ -170,7 +170,7 @@ nav > ul {
 }
 
 .slider-header {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .slider-header h1,
@@ -194,7 +194,7 @@ nav > ul {
 .slide {
     display: flex;
     align-items: center;
-    height: 400px;
+    height: auto;
     overflow: hidden;
 }
 
@@ -238,7 +238,7 @@ nav > ul {
     display: -ms-flexbox;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .left {
