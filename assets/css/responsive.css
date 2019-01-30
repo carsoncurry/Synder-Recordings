@@ -14,11 +14,11 @@
     .menu, .menu-item {
         flex-direction: column;
         background-color: white;
-        padding: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .menu-item {
         display: none;
-        margin-top: 5px;
     }
     .menu-item img {
         display: none;
@@ -73,6 +73,15 @@
         width: auto;
     }
 
+    /* SLIDE RESPONSIVENESS */
+    .slide-content {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        padding-top: 25px;
+    }
+
+
     /* CONTACT RESPONSIVENESS */
     .contact-section {
         height: auto;
@@ -109,6 +118,7 @@
 }
 
 @media only screen and (max-width: 480px) {
+    /* HERO RESPONSIVENESS */
     .hero-section {
         width: auto;
         height: auto;
@@ -130,15 +140,42 @@
         font-size: 36px;
     }
 
+    /* PROFILE RESPONSIVENESS */
+    .profile-section {
+        height: auto;
+    }
+
+    /* SLIDER RESPONSIVENESS */
     .slider-header {
         padding: 0;
     }
 
     .slider {
-        width: auto;
+        width: 100%;
         height: auto;
     }
 
+    .slide {
+        max-width: 400px;
+    }
+
+    .slide-content {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        padding-top: 25px;
+    }
+
+    .slide-content img {
+        margin-left: 0;
+    }
+
+    /* CONTACT RESPONSIVENESS */
+    .contact-section {
+        padding-top: 25px;
+    }
+
+    /* FOOTER RESPONSIVENESS */
     .footer-content, .footer-menu {
         /* display: flex; */
         flex-direction: column;
