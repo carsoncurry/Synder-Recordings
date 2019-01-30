@@ -11,16 +11,13 @@
 
 @media only screen and (max-width: 768px) {
     /* NAVBAR RESPONSIVENESS */
-    nav {
-        padding-right: 25px;
-    }
     .menu, .menu-item {
         flex-direction: column;
         background-color: white;
+        padding: 25px;
     }
     .menu-item {
         display: none;
-        margin-left: 2%;
         margin-top: 5px;
     }
     .menu-item img {
@@ -121,6 +118,12 @@
 
     #hero-image {
         animation: none;
+    }
+
+    .hero-section-text {
+        height: 80%;
+        width: auto;
+        max-width: 420px;
     }
 
     .hero-section-text h1 {
