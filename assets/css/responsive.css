@@ -71,11 +71,14 @@
     }
 
     /* PROFILE RESPONSIVENESS */
+    .profile-section {
+        height: auto;
+    }
+
     .profile-content img {
-        width: auto;
-        height: 200px;
+        width: 100%;
+        height: auto;
         margin-bottom: 50px;
-        margin-top: 25px;
     }
 
     .profile-right {
@@ -171,7 +174,8 @@
 
     /* SLIDER RESPONSIVENESS */
     .slider-header {
-        padding: 0;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .slider {
