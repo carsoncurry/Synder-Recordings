@@ -1,3 +1,4 @@
+// SLIDER FUNCTIONALITY
 $(document).ready(function() {
     $('.slider').slick({
         adaptiveHeight: true,
@@ -44,6 +45,7 @@ $(document).ready(function() {
     })
 })
 
+// SLIDER ARROW REPLACEMENT
 $('.left').click(function() {
     $('.slider').slick('slickPrev');
 })
@@ -52,6 +54,7 @@ $('.right').click(function() {
     $('.slider').slick('slickNext');
 })
 
+// KEYBOARD SLIDER FUNCTIONALITY
 document.onkeydown = function(event) {
     switch (event.keyCode) {
         case 37:
@@ -62,3 +65,13 @@ document.onkeydown = function(event) {
             break;
     }
 }
+
+// MENU TOGGLE FUNCTIONALITY
+function classToggle() {
+    const navs = document.querySelectorAll('.menu-item')
+
+    navs.forEach(nav => nav.classList.toggle('Navbar_ToggleShow'));
+}
+
+document.querySelector('.menu-toggle')
+    .addEventListener('click', classToggle);

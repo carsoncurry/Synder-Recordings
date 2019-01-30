@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px) {
+    /* NAVBAR RESPONSIVENESS */
+    .menu, .menu-item {
+        flex-direction: column;
+        background-color: white;
+    }
+    .menu-item {
+        display: none;
+        margin-left: 2%;
+    }
+    .menu-item img {
+        display: none;
+    }
+    .Navbar_ToggleShow {
+        display: flex;
+    }
+    .menu-toggle {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+        margin-right: 2%;
+    }
+    .menu-logo {
+        margin-left: 2%;
+    }
+    .menu-button {
+        margin-bottom: 2%;
+    }
+}

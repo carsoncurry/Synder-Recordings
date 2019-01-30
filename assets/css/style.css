@@ -64,6 +64,10 @@ nav > ul {
     margin-right: 75px;
 }
 
+.menu-toggle {
+    display: none;
+}
+
 /* HERO STYLES */
 .hero-section {
     height: 850px;
