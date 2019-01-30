@@ -75,3 +75,18 @@ function classToggle() {
 
 document.querySelector('.menu-toggle')
     .addEventListener('click', classToggle);
+
+// INTEGRATE GOOGLE MAP
+function initMap() {
+    // Lifted Logic's Location
+    var liftedlogic = {lat: 38.970638, lng: -94.704292};
+    // The map, centered on Lifted Logic
+    var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 18, center: liftedlogic});
+    // The marker, positioned at Lifted Logic
+
+    var marker = new google.maps.Marker({
+        position: liftedlogic, 
+        map: map
+    });
+}
