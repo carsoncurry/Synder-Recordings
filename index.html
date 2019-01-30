@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <link rel="icon" href="assets/images/logo/svg/SRrecordings.svg">
+    <link rel="icon" href="assets/images/logo/SRrecordings.png">
     <title>Synder Recordings</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -168,14 +168,14 @@
                     best from Synder Recording artist, now available on Apple
                     Music & Spotify.
                 </p>
-                <form>
+                <form method="post" onsubmit="alert('Thank you. A representative will respond to your query shortly.')">
                     <div class="form-row">
-                        <input type="text" id="first-name" placeholder="First Name" name="user_firstname" />
-                        <input type="text" id="last-name" placeholder="Last Name" name="user_lastname" />
+                        <input type="text" id="first-name" value="" required placeholder="First Name" name="user_firstname" />
+                        <input type="text" id="last-name" value="" required placeholder="Last Name" name="user_lastname" />
                     </div>
                     <div class="form-row">
-                        <input type="text" id="email" placeholder="Email Address" name="user_email" />
-                        <input placeholder="Reason For Contacting" name="user_reason" list="reasons" />
+                        <input type="email" id="email" value="" required placeholder="Email Address" name="user_email" />
+                        <input type="text" value="" placeholder="Reason For Contacting" name="user_reason" list="reasons" />
                         <datalist is="reasons">
                             <option value="reason 1">
                             <option value="reason 2">
@@ -183,9 +183,9 @@
                         </datalist>
                     </div>
                     <div class="form-row">
-                        <textarea rows="3" id="text-area" placeholder="Write a brief message..." name="user_comment"></textarea>
+                        <textarea type="text" rows="3" id="text-area" value="" placeholder="Write a brief message..." name="user_comment"></textarea>
                     </div>
-                    <button class="submit-btn">Send Message</button>
+                    <button type="submit" class="submit-btn">Send Message</button>
                 </form>
             </div>
             <img src="assets/images/images/image3.png" alt="Contact Image" />

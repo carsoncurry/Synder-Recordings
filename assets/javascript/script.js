@@ -1,36 +1,43 @@
 $(document).ready(function() {
     $('.slider').slick({
+        adaptiveHeight: true,
         arrows: false,
         centerMode: true,
         centerPadding: '60px',
         slidesToShow: 1,
+        variableWidth: true,
         responsive: [
             {
-                breakpoint: 1530,
+                breakpoint: 980,
                 settings: {
+                    adaptiveHeight: true,
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 1
+                    centerPadding: '60px',
+                    slidesToShow: 1,
+                    variableWidth: true
                 }
             },
-
             {
                 breakpoint: 768,
                 settings: {
+                    adaptiveHeight: true,
                     arrows: false,
                     centerMode: true,
                     centerPadding: '40px',
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    variableWidth: true
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
+                    adaptiveHeight: true,
                     arrows: false,
                     centerMode: true,
                     centerPadding: '40px',
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    variableWidth: true
                 }
             }
         ]
