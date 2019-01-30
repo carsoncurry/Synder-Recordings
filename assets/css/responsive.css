@@ -1,5 +1,8 @@
 @media only screen and (max-width: 768px) {
     /* NAVBAR RESPONSIVENESS */
+    nav {
+        padding-right: 25px;
+    }
     .menu, .menu-item {
         flex-direction: column;
         background-color: white;
@@ -7,6 +10,7 @@
     .menu-item {
         display: none;
         margin-left: 2%;
+        margin-top: 5px;
     }
     .menu-item img {
         display: none;
@@ -24,7 +28,8 @@
     .menu-logo {
         margin-left: 2%;
     }
+
     .menu-button {
-        margin-bottom: 2%;
+        margin-left: 2%;
     }
 }
