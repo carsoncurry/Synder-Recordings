@@ -66,20 +66,57 @@
 
     /* PROFILE RESPONSIVENESS */
     .profile-content img {
-        max-width: 50%;
-        height: auto;
+        width: auto;
+        height: 200px;
         margin-bottom: 50px;
+        margin-top: 25px;
     }
 
     .profile-right {
         width: auto;
     }
+
+    /* CONTACT RESPONSIVENESS */
+    .contact-section {
+        height: auto;
+    }
+
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-content button {
+        margin-bottom: 25px;
+    }
+
+    .contact-content img {
+        width: auto;
+        height: auto;
+        align-self: flex-start;
+        margin-left: 25px;
+    }
+
+    .contact-left {
+        margin-left: 25px;
+        width: auto;
+    }
+
+    #first-name, #email {
+        margin-bottom: 25px;
+    }
+
+    textarea {
+        width: 265px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
     .hero-section {
-        width: 100%;
+        width: auto;
         height: auto;
+        display: flex;
+        align-items: center;
     }
 
     #hero-image {
