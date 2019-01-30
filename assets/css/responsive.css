@@ -1,5 +1,9 @@
 @media only screen and (max-width: 960px) {
     /* PROFILE RESPONSIVENESS */
+    #profile-image {
+        margin-bottom: 50px;
+    }
+
     .profile-right {
         width: 100%;
     }
@@ -37,7 +41,7 @@
     }
 
     .menu-button {
-        margin-left: 2%;
+        margin-bottom: 2%;
     }
 
     /* HERO RESPONSIVENESS */
@@ -84,5 +88,29 @@
 
     .hero-section-text h1 {
         font-size: 36px;
+    }
+
+    .slider-header {
+        padding: 0;
+    }
+
+    .slider {
+        width: auto;
+        height: auto;
+    }
+
+    .footer-content, .footer-menu {
+        /* display: flex; */
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .footer-contact {
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .list-heading {
+        margin-top: 10px;
     }
 }

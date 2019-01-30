@@ -182,6 +182,11 @@ nav > ul {
     width: auto;
 }
 
+.slider-header {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 .slider-header h1,
 .slider-header p {
     display: flex;
