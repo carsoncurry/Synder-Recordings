@@ -16,9 +16,13 @@
         background-color: white;
         padding-left: 25px;
         padding-right: 25px;
+        max-height: 500px;
     }
     .menu-item {
         display: none;
+        margin: 0;
+        padding: 0;
+        height: auto;
     }
     .menu-item img {
         display: none;
@@ -38,7 +42,8 @@
     }
 
     .menu-button {
-        margin-bottom: 2%;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     /* HERO RESPONSIVENESS */
